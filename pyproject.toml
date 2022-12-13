@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "wikipedia-mobile"
+version = "0.1.0"
+description = ""
+authors = ["anna-zukowska <anna-zukowska@ya.ru>"]
+readme = "README.md"
+packages = [{include = "wikipedia_mobile"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pytest = "^7.2.0"
+selene = "2.0.0b14"
+allure-pytest = "^2.12.0"
+appium-python-client = "^2.7.1"
+python-dotenv = "^0.21.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
