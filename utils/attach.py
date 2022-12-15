@@ -28,6 +28,15 @@ def attach_screenshot(browser):
     )
 
 
+def attach_xml_dump(browser):
+    allure.attach(
+        browser.driver.page_source,
+        name='page xml dump',
+        attachment_type=allure.attachment_type.XML
+     )
+
+
+
 
 
 
