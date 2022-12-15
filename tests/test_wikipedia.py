@@ -1,4 +1,4 @@
-from wikipedia_tests.model import app
+from wikipedia_mobile_tests.model import app
 
 
 def test_search():
