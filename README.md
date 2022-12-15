@@ -43,7 +43,7 @@
 <img width="349" alt="image" src="https://user-images.githubusercontent.com/109241600/207936849-0bb509ae-d923-4799-b8cc-98c4687306b8.png">
 
 ## <a name="Allure">Отчеты о прохождении тестов Allure report</a>
-После завершения тестов также формируются отчеты <a href="https://jenkins.autotests.cloud/job/002-annazukowska-python-wikipedia-mobile/5/allure/#suites/e387fa4bb326b54ea8c19c2822aba374" target="_blank">Allure report</a>, которые можно посмотреть со страницы задачи в Jenkins.
+После завершения тестов также формируются отчеты <a href="https://jenkins.autotests.cloud/job/002-annazukowska-python-wikipedia-mobile/8/allure/#suites/af2ff67a81e1e0c79ebbaa1e8fbd90b7/3cc0d59c8d44980e" target="_blank">Allure report</a>, которые можно посмотреть со страницы задачи в Jenkins.
 
 <img width="1432" alt="image" src="https://user-images.githubusercontent.com/109241600/207937388-8683e93d-d9f9-4c1f-913c-e5885b31df1d.png">
 <img width="1431" alt="image" src="https://user-images.githubusercontent.com/109241600/207937465-602917f9-ae85-4135-ad37-7298bdd53b49.png">
