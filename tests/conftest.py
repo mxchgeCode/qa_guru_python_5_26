@@ -3,7 +3,7 @@ import pytest
 from appium import webdriver
 from appium.options.android import UiAutomator2Options
 from dotenv import load_dotenv
-from utils.attach import attach_video
+from utils.attach import attach_video, attach_screenshot
 from selene.support.shared import browser
 
 
@@ -30,6 +30,8 @@ def driver_management():
     browser.config.driver = webdriver.Remote('http://hub.browserstack.com/wd/hub', options=options)
     yield
     attach_video(browser)
+    attach_screenshot(browser)
     browser.quit()
+
 
 
