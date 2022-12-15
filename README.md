@@ -42,6 +42,29 @@
 
 <img width="349" alt="image" src="https://user-images.githubusercontent.com/109241600/207936849-0bb509ae-d923-4799-b8cc-98c4687306b8.png">
 
+## <a name="Allure">Отчеты о прохождении тестов Allure report</a>
+После завершения тестов также формируются отчеты <a href="https://jenkins.autotests.cloud/job/002-annazukowska-python-wikipedia-mobile/5/allure/#suites/e387fa4bb326b54ea8c19c2822aba374" target="_blank">Allure report</a>, которые можно посмотреть со страницы задачи в Jenkins.
+
+<img width="1432" alt="image" src="https://user-images.githubusercontent.com/109241600/207937388-8683e93d-d9f9-4c1f-913c-e5885b31df1d.png">
+<img width="1431" alt="image" src="https://user-images.githubusercontent.com/109241600/207937465-602917f9-ae85-4135-ad37-7298bdd53b49.png">
+
+## <a name="TestOPS">Интеграция с Allure TestOPS</a>
+Настроена интеграция Jenkins с Allure TestOPS.
+При первом после интеграции прохождении тестов в Jenkins, в Allure TestOPS были автоматически созданы такие тест-кейсы:
+
+<img width="1432" alt="image" src="https://user-images.githubusercontent.com/109241600/207939178-cb06c9c6-2842-4ab4-8d22-97d180bf3901.png">
+
+Можно посмотреть историю выполненных прогонов:
+<img width="1435" alt="image" src="https://user-images.githubusercontent.com/109241600/207939857-d6c2643c-0ef4-4a9d-9b38-864352226e4a.png">
+<img width="1432" alt="image" src="https://user-images.githubusercontent.com/109241600/207940026-d465a021-1f23-4b90-83d7-82df2a73ffed.png">
+
+## <a name="Jira">Интеграция с Jira</a>
+Настроена интеграция Allure TestOPS с Jira. К задаче в Jira привязаны тест-кейсы и прогон с результатами тестирования из Allure TestOPS.
+
+<img width="1433" alt="image" src="https://user-images.githubusercontent.com/109241600/207941082-8a70a718-f42d-4835-abfb-75673ca933cb.png">
+<img width="1435" alt="image" src="https://user-images.githubusercontent.com/109241600/207941141-5babd837-6457-4eb1-b163-73c3d0493a8e.png">
+
+
 
 
 
