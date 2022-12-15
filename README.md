@@ -34,5 +34,14 @@
   - Возврат на главную страницу со страницы настроек
   
   ## <a name="Jenkins">Запуск автотестов из Jenkins</a>
-Для удаленного запуска автотестов в <a href="___" target="_blank">Jenkins</a> создана задача (job), настроена и связана с репозиторием в GitHub.
+Для удаленного запуска автотестов в <a href="https://jenkins.autotests.cloud/job/002-annazukowska-python-wikipedia-mobile/" target="_blank">Jenkins</a> создана задача (job), настроена и связана с репозиторием в GitHub.
+<img width="1437" alt="image" src="https://user-images.githubusercontent.com/109241600/207936123-2dd2443b-6529-46d4-9136-aba01d4b175f.png">
+
+## <a name="Telegram">Уведомление о результатах тестирования через Telegram-бот</a>
+После завершения тестов приходит такое оповещение в Telegram с помощью заранее созданного Telegram-бота, привязанного к задаче в Jenkins.
+
+<img width="349" alt="image" src="https://user-images.githubusercontent.com/109241600/207936849-0bb509ae-d923-4799-b8cc-98c4687306b8.png">
+
+
+
 
