@@ -12,19 +12,19 @@
 
 ## <a name="Технологии">Технологии и инструменты, использованные в проекте</a>
 <p align="center">
-<img width="6%" title="PyCharm" src="images/pycharm.svg">
-<img width="6%" title="Python" src="images/python.svg">
-<img width="6%" title="Pytest" src="images/pytest.svg">
-<img width="6%" title="Selenium" src="images/selenium.png">
-<img width="6%" title="Selene" src="images/selene.png">
-<img width="6%" title="GitHub" src="images/GitHub.svg">
-<img width="6%" title="Jenkins" src="images/Jenkins.svg">  
-<img width="6%" title="AllureReport" src="images/Allure_Report.svg">  
-<img width="6%" title="AllureTestOPS" src="images/Allure_TO.svg"> 
-<img width="6%" title="Telegram" src="images/Telegram.svg">  
-<img width="6%" title="Jira" src="images/jira.svg"> 
-<img width="6%" title="Browserstack" src="images/Browserstack.svg"> 
-<img width="5%" title="Appium" src="images/Appium.svg"> 
+<img width="6%" title="PyCharm" src="wikipedia_mobile_tests/utils/images/pycharm.svg">
+<img width="6%" title="Python" src="wikipedia_mobile_tests/utils/images/python.svg">
+<img width="6%" title="Pytest" src="wikipedia_mobile_tests/utils/images/pytest.svg">
+<img width="6%" title="Selenium" src="wikipedia_mobile_tests/utils/images/selenium.png">
+<img width="6%" title="Selene" src="wikipedia_mobile_tests/utils/images/selene.png">
+<img width="6%" title="GitHub" src="wikipedia_mobile_tests/utils/images/GitHub.svg">
+<img width="6%" title="Jenkins" src="wikipedia_mobile_tests/utils/images/Jenkins.svg">  
+<img width="6%" title="AllureReport" src="wikipedia_mobile_tests/utils/images/Allure_Report.svg">  
+<img width="6%" title="AllureTestOPS" src="wikipedia_mobile_tests/utils/images/Allure_TO.svg"> 
+<img width="6%" title="Telegram" src="wikipedia_mobile_tests/utils/images/Telegram.svg">  
+<img width="6%" title="Jira" src="wikipedia_mobile_tests/utils/images/jira.svg"> 
+<img width="6%" title="Browserstack" src="wikipedia_mobile_tests/utils/images/Browserstack.svg"> 
+<img width="5%" title="Appium" src="wikipedia_mobile_tests/utils/images/Appium.svg"> 
 </p>
 
 ## <a name="Тесты">Тест-кейсы</a>
