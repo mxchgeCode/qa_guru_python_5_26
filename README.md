@@ -10,7 +10,11 @@
 + [Интеграция с Allure TestOPS](#TestOPS) 
 + [Интеграция с Jira](#Jira) 
 
-## <a name="Технологии">Технологии и инструменты, использованные в проекте</a>
+
+
+<a name="Технологии">
+  
+## Технологии и инструменты, использованные в проекте
 <p align="center">
 <img width="6%" title="PyCharm" src="wikipedia_mobile_tests/utils/images/pycharm.svg">
 <img width="6%" title="Python" src="wikipedia_mobile_tests/utils/images/python.svg">
@@ -27,28 +31,47 @@
 <img width="5%" title="Appium" src="wikipedia_mobile_tests/utils/images/Appium.svg"> 
 </p>
 
-## <a name="Тесты">Тест-кейсы</a>
+  
+<a name="Тесты">
+  
+## Тест-кейсы
   - Поиск информации
   - Возврат на главную страницу из результатов поиска
   - Переход на страницу с настройками
   - Возврат на главную страницу со страницы настроек
   
-  ## <a name="Jenkins">Запуск автотестов из Jenkins</a>
+
+  
+<a name="Jenkins">
+
+## Запуск автотестов из Jenkins
 Для удаленного запуска автотестов в <a href="https://jenkins.autotests.cloud/job/002-annazukowska-python-wikipedia-mobile/" target="_blank">Jenkins</a> создана задача (job), настроена и связана с репозиторием в GitHub.
 <img width="1437" alt="image" src="https://user-images.githubusercontent.com/109241600/207936123-2dd2443b-6529-46d4-9136-aba01d4b175f.png">
 
-## <a name="Telegram">Уведомление о результатах тестирования через Telegram-бот</a>
+
+
+<a name="Telegram">
+  
+## Уведомление о результатах тестирования через Telegram-бот
 После завершения тестов приходит такое оповещение в Telegram с помощью заранее созданного Telegram-бота, привязанного к задаче в Jenkins.
 
 <img width="349" alt="image" src="https://user-images.githubusercontent.com/109241600/207936849-0bb509ae-d923-4799-b8cc-98c4687306b8.png">
 
-## <a name="Allure">Отчеты о прохождении тестов Allure report</a>
+
+  
+<a name="Allure">
+  
+## Отчеты о прохождении тестов Allure report
 После завершения тестов также формируются отчеты <a href="https://jenkins.autotests.cloud/job/002-annazukowska-python-wikipedia-mobile/8/allure/#suites/af2ff67a81e1e0c79ebbaa1e8fbd90b7/3cc0d59c8d44980e" target="_blank">Allure report</a>, которые можно посмотреть со страницы задачи в Jenkins.
 
 <img width="1432" alt="image" src="https://user-images.githubusercontent.com/109241600/207937388-8683e93d-d9f9-4c1f-913c-e5885b31df1d.png">
 <img width="1431" alt="image" src="https://user-images.githubusercontent.com/109241600/207937465-602917f9-ae85-4135-ad37-7298bdd53b49.png">
 
-## <a name="TestOPS">Интеграция с Allure TestOPS</a>
+
+  
+<a name="TestOPS">
+  
+## Интеграция с Allure TestOPS
 Настроена интеграция Jenkins с Allure TestOPS.
 При первом после интеграции прохождении тестов в Jenkins, в Allure TestOPS были автоматически созданы такие тест-кейсы:
 
@@ -58,7 +81,11 @@
 <img width="1435" alt="image" src="https://user-images.githubusercontent.com/109241600/207939857-d6c2643c-0ef4-4a9d-9b38-864352226e4a.png">
 <img width="1432" alt="image" src="https://user-images.githubusercontent.com/109241600/207940026-d465a021-1f23-4b90-83d7-82df2a73ffed.png">
 
-## <a name="Jira">Интеграция с Jira</a>
+
+  
+<a name="Jira">
+  
+## Интеграция с Jira
 Настроена интеграция Allure TestOPS с Jira. К задаче в Jira привязаны тест-кейсы и прогон с результатами тестирования из Allure TestOPS.
 
 <img width="1433" alt="image" src="https://user-images.githubusercontent.com/109241600/207941082-8a70a718-f42d-4835-abfb-75673ca933cb.png">
