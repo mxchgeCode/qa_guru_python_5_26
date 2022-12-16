@@ -3,7 +3,7 @@ import pytest
 from appium import webdriver
 from appium.options.android import UiAutomator2Options
 from dotenv import load_dotenv
-from utils.attach import attach_video, attach_screenshot, attach_xml_dump
+from wikipedia_mobile_tests.utils.attach import attach_video, attach_screenshot, attach_xml_dump
 from selene.support.shared import browser
 
 
