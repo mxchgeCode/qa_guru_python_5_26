@@ -2,7 +2,7 @@
 name = "wikipedia-mobile"
 version = "0.1.0"
 description = ""
-authors = ["anna-zukowska <anna-zukowska@ya.ru>"]
+authors = []
 readme = "README.md"
 packages = [{include = "wikipedia_mobile"}]
 
